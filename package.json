@@ -1,0 +1,23 @@
+{
+  "name": "crosswords",
+  "version": "1.0.0",
+  "description": "crosswords model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --source-map true ./main.scss ./styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domingoacd/crosswords.git"
+  },
+  "author": "Domingo Cabeza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domingoacd/crosswords/issues"
+  },
+  "homepage": "https://github.com/domingoacd/crosswords#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
