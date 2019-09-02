@@ -4,9 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
   <title>Crosswords</title>
 </head>
 <body>
-  
+  <div class="modal">
+    <h3>
+      Game Over!
+    </h3>
+    <button class="btn">Restart</button>
+  </div>
+  <div class="wrapper">
+    <div class="head">Style base for a crossword puzzle.</div>
+    <div class="content">
+      <div class="words">
+        <div class="row">
+          <div class="word j-word--gallo">Gallo</div>
+          <div class="word j-word--galleta">Galleta</div>
+          <div class="word j-word--calle">Calle</div>
+          <div class="word j-word--corona">Corona</div>
+          <div class="word j-word--carro">Carro</div>
+        </div>
+        <div class="row">
+          <div class="word j-word--regalo">Regalo</div>
+          <div class="word j-word--avena">Avena</div>
+          <div class="word j-word--oreja">Oreja</div>
+          <div class="word j-word--sello">Sello</div>
+          <div class="word j-word--imagina">Imagina</div>
+        </div>
+      </div>
+      <div class="puzzle">
+        <div class="puzzle__container">
+          <div class="puzzle__row answer answer--gallo">
+            <h3 class="letter">G</h3>
+            <h3 class="letter">a</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">o</h3>
+          </div>
+          <div class="puzzle__col answer answer--galleta">
+            <h3 class="letter">G</h3>
+            <h3 class="letter">a</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">e</h3>
+            <h3 class="letter">t</h3>
+            <h3 class="letter">a</h3>
+          </div>
+          <div class="puzzle__row answer answer--calle">
+            <h3 class="letter">C</h3>
+            <h3 class="letter">a</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">e</h3>
+          </div>
+          <div class="puzzle__col answer answer--oreja">
+            <h3 class="letter">O</h3>
+            <h3 class="letter">r</h3>
+            <h3 class="letter">e</h3>
+            <h3 class="letter">j</h3>
+            <h3 class="letter">a</h3>
+          </div>
+          <div class="puzzle__row answer answer--imagina">
+            <h3 class="letter">I</h3>
+            <h3 class="letter">m</h3>
+            <h3 class="letter">a</h3>
+            <h3 class="letter">g</h3>
+            <h3 class="letter">i</h3>
+            <h3 class="letter">n</h3>
+            <h3 class="letter">a</h3>
+          </div>
+          <div class="puzzle__col answer answer--avena">
+            <h3 class="letter">A</h3>
+            <h3 class="letter">v</h3>
+            <h3 class="letter">e</h3>
+            <h3 class="letter">n</h3>
+            <h3 class="letter">a</h3>
+          </div>
+          <div class="puzzle__row answer answer--sello">
+            <h3 class="letter">S</h3>
+            <h3 class="letter">e</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">o</h3>
+          </div>
+          <div class="puzzle__row answer answer--regalo">
+            <h3 class="letter">R</h3>
+            <h3 class="letter">e</h3>
+            <h3 class="letter">g</h3>
+            <h3 class="letter">a</h3>
+            <h3 class="letter">l</h3>
+            <h3 class="letter">o</h3>
+          </div>
+          <div class="puzzle__col answer answer--carro">
+            <h3 class="letter">C</h3>
+            <h3 class="letter">a</h3>
+            <h3 class="letter">r</h3>
+            <h3 class="letter">r</h3>
+            <h3 class="letter">o</h3>
+          </div>
+          <div class="puzzle__row answer answer--corona">
+            <h3 class="letter">C</h3>
+            <h3 class="letter">o</h3>
+            <h3 class="letter">r</h3>
+            <h3 class="letter">o</h3>
+            <h3 class="letter">n</h3>
+            <h3 class="letter">a</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <script src="./main.js"></script>
 </body>
 </html>
